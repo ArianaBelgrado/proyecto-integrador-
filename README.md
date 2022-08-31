@@ -1,7 +1,7 @@
 # TITULO
 
 # DESCRI
-Nuestro sitio web ofrece una gran variedad de perfumes para hombres y mujeres. El objetivo del mismo será que cada cliente encuentre una fragancia con la cual se sienta cómodo y feliz para usar en su día a día
+Nuestro sitio web ofrece una gran variedad de perfumes para hombres y mujeres. El objetivo del mismo será que cada cliente encuentre una fragancia con la cual se sienta cómodo y feliz para usar en su día a día. 
 
 SOBRE NOSOTROS
 
