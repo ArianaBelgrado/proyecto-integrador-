@@ -11,7 +11,7 @@ MARTIN
 
 NICOLAS
 
-JUAN
+JUAN: 20 años. Ex estudiante de la Unlam en la tecnicatura desarrollo de aplicaciones moviles. Actualmente cursando Desarrollo Web en Digital House
 
 SEBASTIAN
 # TABLERO DEL TRABAJO
