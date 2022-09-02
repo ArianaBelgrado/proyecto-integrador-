@@ -5,12 +5,12 @@ Nuestro sitio web ofrece una gran variedad de perfumes para hombres y mujeres. E
 
 SOBRE NOSOTROS
 
-ARIANA : 19 años. Estudiante de Ciencias de la Computación en la UBA y, a su vez, Programación en Digital House.
+ARIANA : 19 años. Estudiante de Ciencias de la Computación en la UBA y, a su vez, Programación en Digital House<br>
 MARTIN: 36 años. Recibido de Despachante de Aduanas y Estudiante de Programación. Actualmente trabajando en una metalúrgica en la parte Administrativa<br>
 
 NICOLAS
 
-JUAN: 20 años. Ex estudiante de la Unlam en la tecnicatura desarrollo de aplicaciones moviles. Actualmente cursando Desarrollo Web en Digital House
+JUAN: 20 años. Ex estudiante de la Unlam en la tecnicatura desarrollo de aplicaciones moviles. Actualmente cursando Desarrollo Web en Digital House<br>
 
 SEBASTIAN
 # TABLERO DEL TRABAJO
