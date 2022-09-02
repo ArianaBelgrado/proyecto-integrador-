@@ -7,7 +7,7 @@ SOBRE NOSOTROS
 
 ARIANA 
 
-MARTIN 
+MARTIN: 36 años. Recibido de Despachante de Aduanas y Estudiante de Programación. Actualmente trabajando en una metalúrgica en la parte Administrativa
 
 NICOLAS
 
