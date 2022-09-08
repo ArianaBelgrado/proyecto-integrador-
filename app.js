@@ -9,5 +9,5 @@ console.log('servidor corriendo')
 );
 
 app.get('/', function(req,res) {
-    res.sendFile(path.join(__dirname,'/public/home.html'))
+    res.sendFile(path.join(__dirname,'/views/home.html'))
 })
