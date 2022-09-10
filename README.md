@@ -13,7 +13,7 @@ NICOLAS : 29 años. Tecnico electromecánico, artista, bailarín folklórico y A
 
 JUAN: 20 años. Ex estudiante de la Unlam en la tecnicatura desarrollo de aplicaciones moviles. Actualmente cursando Desarrollo Web en Digital House<br>
 
-SEBASTIAN
+
 # TABLERO DEL TRABAJO
 
 Utilizamos Projects Github.
