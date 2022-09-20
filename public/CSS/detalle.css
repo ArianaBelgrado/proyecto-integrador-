@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.container {
+    display: flex;
+    width: auto;
+    background-color: #AAB5C5;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 90px;
+    flex-direction: row;
+    height: 790px;
+
+}
+
+.descripcion {
+    text-align: center;
+    padding: 20px;
+}
+
+.vista {
+
+    width: 60%;
+
+}
+
+.vista-info {
+    width: 40%;
+    background-color: #5f8fd8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nombre,
+.precio,
+.cuotas,
+.carrito {
+    margin: 20px;
+}
+
+.descripciones-info {
+    text-align: center;
+    /* padding: 20px; */
+    
+
+
+
+}
+
+.carrito {
+    width: 150px;
+    height: 50px;
+    margin: 2px;
+    font-size: 15px;
+}
+
+.volver button {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 200px;
+    height: 50px;
+
+}
+
+button {
+    border-radius: 20px;
+}
+
+.img-vista {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: 0 auto;
+    /* padding-top: 500px; */
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container-carrito{
+ display: flex;
+ justify-content: space-around;
+ 
+}
+
+.agregar-deshacer-container {
+     display: flex; 
+    /* padding: 6px; */
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+.agregar-deshacer {
+    
+
+}
+
+i {
+    width: 25px;
+}
+
+.precio{
+    font-size: 50px;
+}

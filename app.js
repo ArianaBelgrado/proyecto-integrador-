@@ -15,10 +15,10 @@ app.get('/', function(req,res) {
     res.sendFile(path.join(__dirname,'/views/home.html'))
 })
 
-app.get('/', function(req,res) {
-    res.sendFile(path.join(__dirname,'/views/log-in.html'))
-})
+ app.get('/detalle', function(req,res) {
+    res.sendFile(path.join(__dirname,'/views/detalle.html'))
+ })
 
-app.get('/', function(req,res) {
-    res.sendFile(path.join(__dirname,'/views/sign-in.html'))
-})
+// app.get('/', function(req,res) {
+//     res.sendFile(path.join(__dirname,'/views/sign-in.html'))
+// })
