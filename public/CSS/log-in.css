@@ -1,0 +1,156 @@
+body {
+    background-color: #89CFF0;
+    font-family: 'Montserrat', sans-serif;
+ } 
+
+header {
+    background-color: #272727;
+    width: 1550px;
+    height: 60px;
+    margin-left: -10px;
+    margin-top: -21px;
+    text-align: center;
+}
+
+header h1 {
+    color: #D5CAD6;
+    text-align: center;
+}
+
+.container-formulario {
+    width: 100%;
+    padding-left: 29%;
+}
+
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ .formulario {
+    background-color: #fff;
+    border: 3px solid #666;
+    width: 50%;
+    margin: 4px;
+
+ }
+
+.nombre input {
+    width: 90%;
+    padding: 6px;
+    display: block;
+    margin: 6px auto;
+    box-sizing: border-box;
+    border: 1px solid #D5CAD6;
+}
+
+.apellido input {
+    width: 90%;
+    padding: 6px;
+    display: block;
+    margin: 6px auto;
+    box-sizing: border-box;
+    border: 1px solid #D5CAD6;
+}
+
+.email input {
+    width: 90%;
+    padding: 6px;
+    display: block;
+    margin: 6px auto;
+    box-sizing: border-box;
+    border: 1px solid #D5CAD6;
+}
+
+.contraseña input {
+    width: 90%;
+    padding: 6px;
+    display: block;
+    margin: 6px auto;
+    box-sizing: border-box;
+    border: 1px solid #D5CAD6;
+}
+
+.repetir-contraseña input {
+    width: 90%;
+    padding: 6px;
+    display: block;
+    margin: 6px auto;
+    box-sizing: border-box;
+    border: 1px solid #D5CAD6;
+}
+
+.telefono input {
+    width: 90%;
+    padding: 6px;
+    display: block;
+    margin: 6px auto;
+    box-sizing: border-box;
+    border: 1px solid #D5CAD6;
+}
+
+.DNI input {
+    width: 90%;
+    padding: 6px;
+    display: block;
+    margin: 6px auto;
+    box-sizing: border-box;
+    border: 1px solid #D5CAD6;
+}
+
+.formulario .cancelar {
+    display: flex;
+}
+
+.formulario .regristrarse {
+    display: flex;
+    justify-items: end;
+}
+
+.formulario .nombre .nombre label {
+    color: #000;
+}
+
+footer {
+    background-color: #013;
+    color: #0cb7f2;
+    width: 100%;
+    position: absolute;
+    top: 800px;
+
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px;
+}
+
+
+@media only screen and (min-width:0px) and (max-width:360px) {
+    .formulario {
+        width: 15%;
+    }
+
+    .container-footer {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        line-height: 2.5;
+    }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+
+
+    .container-footer {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        line-height: 2.5;
+    }
+    
+}
