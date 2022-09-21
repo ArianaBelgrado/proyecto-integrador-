@@ -1,4 +1,105 @@
-main {
-    background-color: lightgray;
-    padding: 10px;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #89CFF0;
+}
+
+h1 {
+    color: #0cb7f2;
+}
+
+h2 {
+    color: #0cb7f2;
+}
+
+.container-sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #89CFF099;
+}
+
+input {
+    width: 70%;
+    padding: 12px;
+    display: block;
+    margin: 12px auto;
+    border-radius: 10px;
+}
+
+input:hover {
+    box-shadow: 100px;
+}
+
+.sign-in .olvido-contraseña p {
+    color: #0cb7f2;
+}
+
+footer {
+    background-color: #013;
+    color: #0cb7f2;
+    width: 100%;
+    position: absolute;
+    top: 600px;
+
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px;
+}
+
+@media only screen and (min-width:0px) and (max-width:360px) {
+    
+    .sign-in {
+        width: 300px;
+        height: 200px;
+    }
+    .container-footer {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        line-height: 2.5;
+    }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+
+    .sign-in {
+        width: 600px;
+        height: 400px;
+    }
+
+    .container-footer {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        line-height: 2.5;
+    }
+    
 }
