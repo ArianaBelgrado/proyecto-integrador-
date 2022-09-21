@@ -28,6 +28,6 @@ app.get('/sign-in', function(req,res) {
     res.sendFile(path.join(__dirname,'/views/detalle.html'))
  })
 
- app.get('/carrtio', function(req,res) {
+ app.get('/carrito', function(req,res) {
     res.sendFile(path.join(__dirname,'/views/carrito.html'))
  })

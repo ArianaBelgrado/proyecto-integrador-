@@ -14,19 +14,19 @@ header {
 
 header h1 {
     color: #D5CAD6;
-    text-align: center;
+ 
+}
+.izquierda {
+    text-align: left;
+}
+
+.margen {
+    margin-left: 15px;
 }
 
 .container-formulario {
     width: 100%;
     padding-left: 29%;
-}
-
-
-.container-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
  .formulario {
@@ -130,7 +130,7 @@ footer {
 }
 
 
-@media only screen and (min-width:0px) and (max-width:360px) {
+@media only screen and (min-width:0px) and (max-width:320px) {
     .formulario {
         width: 15%;
     }
@@ -142,6 +142,10 @@ footer {
         line-height: 2.5;
     }
 }
+/* 
+@media only screen and (min-width:321px) and (max-width:) {
+    
+} */
 
 @media only screen and (min-width: 361px) and (max-width: 768px) {
 
