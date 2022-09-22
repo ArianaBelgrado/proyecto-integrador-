@@ -1,122 +1,172 @@
+
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-
+    padding: 0px;
+    margin: 0px;
 }
-
 
 .container {
     display: flex;
-    width: auto;
-    background-color: #AAB5C5;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 90px;
-    flex-direction: row;
-    height: 790px;
-
-}
-
-.descripcion {
+    justify-content: center;
     text-align: center;
-    padding: 20px;
+    background-color: azure;
+    margin-top: 25px;
+    border: 3px solid #000;
 }
 
-.vista {
+.volver {
+    text-align: justify;
+}
 
-    width: 60%;
 
+.perfume {
+    width: 500px;
 }
 
 .vista-info {
-    width: 40%;
-    background-color: #5f8fd8;
+    border: 2px solid #ebebeb;
+    width: 700px;
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
 }
 
-.nombre,
-.precio,
-.cuotas,
-.carrito {
-    margin: 20px;
+
+
+footer {
+    background-color: #013;
+    color: #0cb7f2;
+    width: 100%;
+    position: absolute;
+    top: 800px;
+
 }
 
-.descripciones-info {
+.container-footer {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    /* padding: 20px; */
-
-
-
-
-}
-
-.carrito {
-    width: 150px;
-    height: 50px;
-    margin: 2px;
-    font-size: 15px;
-}
-
-.volver button {
-    margin-top: 50px;
-    margin-left: 10px;
-    width: 200px;
-    height: 50px;
-
-}
-
-button {
-    border-radius: 20px;
-}
-
-.img-vista {
-    width: 500px;
-    height: 500px;
-    background-color: white;
-    margin: 0 auto;
-    /* padding-top: 500px; */
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-
-.container-carrito {
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.agregar-deshacer-container {
-    display: flex;
-    /* padding: 6px; */
-    border: 2px solid black;
-    border-radius: 30px;
-    width: 150px;
-    height: 50px;
-    align-items: center;
-    justify-content: space-around;
-
+    padding: 80px;
 }
 
 
+@media only screen and (min-width:0px) and (max-width:320px) {
 
-i {
-    width: 25px;
-}
-
-.precio {
-    font-size: 50px;
-}
-
-@media (max-width: 887px) {
     .container {
+        display: flex;
+        justify-content: center;
         flex-direction: column;
-        height: auto;
+        text-align: center;
+        margin-top: 40px;
     }
 
-    .vista-info{
-        width: auto;
+    .perfume {
+        width: 280px;
+    }
+
+    .vista-info {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container-footer {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        line-height: 2.5;
     }
 }
+
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .perfume {
+        width: 280px;
+    }
+
+    .vista-info {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container-footer {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        line-height: 2.5;
+    }
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .perfume {
+        width: 280px;
+    }
+
+    .vista-info {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container-footer {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        line-height: 2.5;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .perfume {
+        width: 400px;
+    }
+
+    .vista-info {
+        width: 680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container-footer {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        line-height: 2.5;
+    }
+}
+
