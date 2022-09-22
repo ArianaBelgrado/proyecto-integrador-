@@ -406,7 +406,38 @@ footer {
 
 }
 }
+@media only screen and (max-width: 674px) and (min-width: 375px) {
+    *{
+        box-sizing: border-box;
+    }
+    .header{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
 
+    }
+    .container-footer{
+        width: 100%;
+        padding: 0;
+    }
+    .seccion-footer{
+        width: 100%;
+    }
+    .redes-sociales{
+        width: 20%;
+        padding: 0;
+    }
+    .Terminos{
+        width: 30%;
+    }
+    .contactanos{
+        width: 40%
+    }
+    }
 
 @media only screen and (max-width: 770px) and (min-width: 481px) {
 .tarjeta1{
