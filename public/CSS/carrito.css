@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+/* MAIN */
+
+main {
+    margin: auto;
+    width: 90vw;
+}
+
+/* ARTICULOS */
+
+
+.img-1 {
+    width: 200px;
+    height: 200px;
+}
+
+.img-2 {
+    width: 200px;
+    height: 200px;
+}
+
+.img-3 {
+    width: 200px;
+    height: 200px;
+}
+
+.img-4 {
+    width: 200px;
+    height: 200px;
+}
+
+.img-5 {
+    width: 200px;
+    height: 200px;
+}
+
+.img-6 {
+    width: 200px;
+    height: 200px;
+}
+
+.img-7 {
+    width: 200px;
+    height: 200px;
+}
+
+.img-8 {
+    width: 200px;
+    height: 200px;
+}
+
+.img-9 {
+    width: 200px;
+    height: 200px;
+}
+
+.img-10 {
+    width: 200px;
+    height: 200px;
+}
+
+.img-11 {
+    width: 200px;
+    height: 200px;
+}
+
+.img-12 {
+    width: 200px;
+    height: 200px;
+}
+.img-13 {
+    width: 200px;
+    height: 200px;
+}
+.img-14 {
+    width: 200px;
+    height: 200px;
+}
+.img-15 {
+    width: 200px;
+    height: 200px;
+}
+.img-16 {
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.producto-1
+.producto-2,
+.producto-3,
+.producto-4 {
+    display: block;
+} 
+
+.contenedor-producto {
+    border-radius: 10px;
+    border: 2px solid #000;
+    padding: 10px;
+    box-shadow: 2px 4px 15px 0 #000;
+}
+
+.productoinfo {
+    border-top: 1px solid #666;
+    padding-left: 15px;  
+}

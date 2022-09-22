@@ -23,7 +23,6 @@ h2 {
 }
 
 .sign-in {
-    width: 700px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -90,9 +89,10 @@ footer {
 
 @media only screen and (min-width: 361px) and (max-width: 768px) {
 
-    .sign-in {
-        width: 600px;
-        height: 400px;
+    .container-sign-in {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .container-footer {

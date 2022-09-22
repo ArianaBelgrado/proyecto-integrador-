@@ -14,27 +14,29 @@ header {
 
 header h1 {
     color: #D5CAD6;
-    text-align: center;
+ 
+}
+.izquierda {
+    text-align: left;
+}
+
+.margen {
+    margin-left: 38px;
+}
+.derecha {
+    text-align: right;
 }
 
 .container-formulario {
     width: 100%;
-    padding-left: 29%;
-}
-
-
-.container-form {
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
  .formulario {
     background-color: #fff;
-    border: 3px solid #666;
-    width: 50%;
-    margin: 4px;
 
+    margin: 4px;
  }
 
 .nombre input {
@@ -130,9 +132,12 @@ footer {
 }
 
 
-@media only screen and (min-width:0px) and (max-width:360px) {
-    .formulario {
-        width: 15%;
+@media only screen and (min-width:0px) and (max-width:320px) {
+    .container-formulario {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .container-footer {
@@ -143,14 +148,25 @@ footer {
     }
 }
 
-@media only screen and (min-width: 361px) and (max-width: 768px) {
 
+@media only screen and (min-width: 361px) and (max-width: 768px) {
 
     .container-footer {
         display:flex;
         flex-direction: column;
         justify-content: space-between;
         line-height: 2.5;
+    }
+    
+}
+
+
+@media only screen and (min-width: 769px) {
+    
+    .formulario{
+        border: 3px solid #666;
+        padding: 15px;
+        margin-top: 15px;
     }
     
 }

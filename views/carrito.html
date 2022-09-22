@@ -4,211 +4,296 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/carrito.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <Header class="Header">
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">PerfuMall</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contáctenos</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    LogIn
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Crear Cuenta</a></li>
-                    <li><a class="dropdown-item" href="#">Ya tengo una cuenta</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">¿Cómo me registro?</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled">Catálogo</a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PerfuMall</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contáctenos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  LogIn
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Crear Cuenta</a></li>
+                  <li><a class="dropdown-item" href="#">Ya tengo una cuenta</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">¿Cómo me registro?</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Catálogo</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
-        </nav>
-    
-      </Header>
+        </div>
+      </nav>
 
       <main>
-        
-              <!-- SECCION 1 -->
-        <section>
-            <article>
-                <div class="contenedor-producto">
-                    <div class="producto-1">
-                        <img src="" alt="">
-                        <div class="productoinfo">
-                            <p class="price">$6.770</p>
-                                <p class="discount">40% OFF</p>
-                                <h4 class="description">Cafetera Moulinex</h4>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <div class="contenedor-producto">
-                    <div class="producto-2">
-                        <img src="" alt="">
-                        <div class="productoinfo">
-                            <p class="price">$6.770</p>
-                                <p class="discount">40% OFF</p>
-                                <h4 class="description">Cafetera Moulinex</h4>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <div class="contenedor-producto">
-                    <div class="producto-3">
-                        <img src="" alt="">
-                        <div class="productoinfo">
-                            <p class="price">$6.770</p>
-                                <p class="discount">40% OFF</p>
-                                <h4 class="description">Cafetera Moulinex</h4>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <div class="contenedor-producto">
-                    <div class="producto-4">
-                        <img src="" alt="">
-                        <div class="productoinfo">
-                            <p class="price">$6.770</p>
-                                <p class="discount">40% OFF</p>
-                                <h4 class="description">Cafetera Moulinex</h4>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </section>
+        <div class="contenedor">
 
-             <!-- SECCION 2 -->
-        <section>
-            <article>
-                <div class="contenedor-producto">
-                    <div class="producto-1">
-                        <img src="" alt="">
-                        <div class="productoinfo">
-                            <p class="price">$6.770</p>
-                                <p class="discount">40% OFF</p>
-                                <h4 class="description">Cafetera Moulinex</h4>
+            <!-- SECCION 1 -->
+            <section>
+                <article>
+                    <div class="contenedor-producto">
+                        <div class="producto-1">
+                            <img class="img-1" src="/img/coco-chanel.jpg">
+                            <div class="productoinfo">
+                                <p class="price">$6.770</p>
+                                    <p class="discount">40% OFF</p>
+                                    <h4 class="description">Coco Chanel</h4>
+                            </div>
+                            <button class="carrito">Agregar</button>
+                            <button class="Quitar">Quitar</button>
                         </div>
                     </div>
-                </div>
-            </article>
-            <article>
-                <div class="contenedor-producto">
-                    <div class="producto-2">
-                        <img src="" alt="">
-                        <div class="productoinfo">
-                            <p class="price">$6.770</p>
-                                <p class="discount">40% OFF</p>
-                                <h4 class="description">Cafetera Moulinex</h4>
+                </article>
+                <article>
+                    <div class="contenedor-producto">
+                        <div class="producto-2">
+                            <img class="img-2" src="/img/chanel-n5.jpg">
+                            <div class="productoinfo">
+                                <p class="price">$6.770</p>
+                                    <p class="discount">40% OFF</p>
+                                    <h4 class="description">Chanel Nº5</h4>
+                            </div>
+                            <button class="carrito">Agregar</button>
+                            <button class="Quitar">Quitar</button>
                         </div>
                     </div>
-                </div>
-            </article>
-            <article>
-                <div class="contenedor-producto">
-                    <div class="producto-3">
-                        <img src="" alt="">
-                        <div class="productoinfo">
-                            <p class="price">$6.770</p>
-                                <p class="discount">40% OFF</p>
-                                <h4 class="description">Cafetera Moulinex</h4>
+                </article>
+                <article>
+                    <div class="contenedor-producto">
+                        <div class="producto-3">
+                            <img class="img-3" src="/img/chanel-bleu.jpg">
+                            <div class="productoinfo">
+                                <p class="price">$6.770</p>
+                                    <p class="discount">40% OFF</p>
+                                    <h4 class="description">Chanel Bleu</h4>
+                            </div>
+                            <button class="carrito">Agregar</button>
+                            <button class="Quitar">Quitar</button>
                         </div>
                     </div>
-                </div>
-            </article>
-            <article>
-                <div class="contenedor-producto">
-                    <div class="producto-4">
-                        <img src="" alt="">
-                        <div class="productoinfo">
-                            <p class="price">$6.770</p>
-                                <p class="discount">40% OFF</p>
-                                <h4 class="description">Cafetera Moulinex</h4>
+                </article>
+                <article>
+                    <div class="contenedor-producto">
+                        <div class="producto-4">
+                            <img class="img-4" src="/img/chanel.jpg">
+                            <div class="productoinfo">
+                                <p class="price">$6.770</p>
+                                    <p class="discount">40% OFF</p>
+                                    <h4 class="description">Chanel Gucci</h4>
+                            </div>
+                            <button class="carrito">Agregar</button>
+                            <button class="Quitar">Quitar</button>
                         </div>
                     </div>
-                </div>
-            </article>
-        </section>
+                </article>
+            </section>
+    
+                 <!-- SECCION 2 -->
+            <section>
+                <article>
+                    <div class="contenedor-producto">
+                        <div class="producto-1">
+                            <img class="img-5" src="kenzo-dolcevita.png">
+                            <div class="productoinfo">
+                                <p class="price">$6.770</p>
+                                    <p class="discount">40% OFF</p>
+                                    <h4 class="description">Kenzo Dolce Vita</h4>
+                            </div>
+                            <button class="carrito">Agregar</button>
+                            <button class="Quitar">Quitar</button>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="contenedor-producto">
+                        <div class="producto-2">
+                            <img class="img-6" src="/img/kenzo-elixir.jpg">
+                            <div class="productoinfo">
+                                <p class="price">$6.770</p>
+                                    <p class="discount">40% OFF</p>
+                                    <h4 class="description">Kenzo Flower L´elixir</h4>
+                            </div>
+                            <button class="carrito">Agregar</button>
+                            <button class="Quitar">Quitar</button>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="contenedor-producto">
+                        <div class="producto-3">
+                            <img class="img-7" src="/img/kenzo-flower.jpg">
+                            <div class="productoinfo">
+                                <p class="price">$6.770</p>
+                                    <p class="discount">40% OFF</p>
+                                    <h4 class="description">Kenzo Flower</h4>
+                            </div>
+                            <button class="carrito">Agregar</button>
+                            <button class="Quitar">Quitar</button>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="contenedor-producto">
+                        <div class="producto-4">
+                            <img class="img-8" src="/img/kenzo.jpg">
+                            <div class="productoinfo">
+                                <p class="price">$6.770</p>
+                                    <p class="discount">40% OFF</p>
+                                    <h4 class="description">Kenzo</h4>
+                            </div>
+                            <button class="carrito">Agregar</button>
+                            <button class="Quitar">Quitar</button>
+                        </div>
+                    </div>
+                </article>
+            </section>
+    
+                  <!-- SECCION 3 -->
+            <section>
+                <article>
+                    <div class="contenedor-producto">
+                        <div class="producto-1">
+                            <img class="img-9" src="/img/dior-homme.png">
+                            <div class="productoinfo">
+                                <p class="price">$6.770</p>
+                                    <p class="discount">40% OFF</p>
+                                    <h4 class="description">Dior Homme</h4>
+                            </div>
+                            <button class="carrito">Agregar</button>
+                            <button class="Quitar">Quitar</button>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="contenedor-producto">
+                        <div class="producto-2">
+                            <img class="img-10" src="/img/dior-sauvage.jpg">
+                            <div class="productoinfo">
+                                <p class="price">$6.770</p>
+                                    <p class="discount">40% OFF</p>
+                                    <h4 class="description">Dior Sauvage</h4>
+                            </div>
+                            <button class="carrito">Agregar</button>
+                            <button class="Quitar">Quitar</button>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="contenedor-producto">
+                        <div class="producto-3">
+                            <img class="img-11" src="/img/jadore.jpg">
+                            <div class="productoinfo">
+                                <p class="price">$6.770</p>
+                                    <p class="discount">40% OFF</p>
+                                    <h4 class="description">Dior Jadore</h4>
+                            </div>
+                            <button class="carrito">Agregar</button>
+                            <button class="Quitar">Quitar</button>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="contenedor-producto">
+                        <div class="producto-4">
+                            <img class="img-12" src="/img/miss-dior.jpg">
+                            <div class="productoinfo">
+                                <p class="price">$6.770</p>
+                                    <p class="discount">40% OFF</p>
+                                    <h4 class="description">Miss Dior</h4>
+                            </div>
+                            <button class="carrito">Agregar</button>
+                            <button class="Quitar">Quitar</button>
+                        </div>
+                    </div>
+                </article>
+            </section>
 
-              <!-- SECCION 3 -->
-        <section>
+            <!-- SECCION 4 -->
+            <section>
             <article>
                 <div class="contenedor-producto">
                     <div class="producto-1">
-                        <img src="" alt="">
+                        <img class="img-13" src="/img/phantom.jpg">
                         <div class="productoinfo">
                             <p class="price">$6.770</p>
                                 <p class="discount">40% OFF</p>
-                                <h4 class="description">Cafetera Moulinex</h4>
+                                <h4 class="description">Phantom</h4>
                         </div>
+                        <button class="carrito">Agregar</button>
+                        <button class="Quitar">Quitar</button>
                     </div>
                 </div>
             </article>
             <article>
                 <div class="contenedor-producto">
                     <div class="producto-2">
-                        <img src="" alt="">
+                        <img class="img-14" src="/img/one-million.jpg">
                         <div class="productoinfo">
                             <p class="price">$6.770</p>
                                 <p class="discount">40% OFF</p>
-                                <h4 class="description">Cafetera Moulinex</h4>
+                                <h4 class="description">One Million</h4>
                         </div>
+                        <button class="carrito">Agregar</button>
+                        <button class="Quitar">Quitar</button>
                     </div>
                 </div>
             </article>
             <article>
                 <div class="contenedor-producto">
                     <div class="producto-3">
-                        <img src="" alt="">
+                        <img class="img-15" src="/img/olympea.jpg">
                         <div class="productoinfo">
                             <p class="price">$6.770</p>
                                 <p class="discount">40% OFF</p>
-                                <h4 class="description">Cafetera Moulinex</h4>
+                                <h4 class="description">Olympea</h4>
                         </div>
+                        <button class="carrito">Agregar</button>
+                        <button class="Quitar">Quitar</button>
                     </div>
                 </div>
             </article>
             <article>
                 <div class="contenedor-producto">
                     <div class="producto-4">
-                        <img src="" alt="">
+                        <img class="img-16" src="/img/lady-million.jpg">
                         <div class="productoinfo">
                             <p class="price">$6.770</p>
                                 <p class="discount">40% OFF</p>
-                                <h4 class="description">Cafetera Moulinex</h4>
+                                <h4 class="description">Lady Million</h4>
                         </div>
+                        <button class="carrito">Agregar</button>
+                        <button class="Quitar">Quitar</button>
                     </div>
                 </div>
             </article>
-        </section>
-        
+            </section>
+          
+        </div><br><br>
+
+        <button class="inicio">Incio</button>
+        <button class="comprar">Comprar</button>
       </main>
     
 </body>
