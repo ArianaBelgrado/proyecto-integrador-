@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/258b4efd0d.js" crossorigin="anonymous"></script>
@@ -66,7 +67,7 @@
         </div>
 
     </Header>
-    <main>
+    <main class="main">
         <div class="carousel">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -100,15 +101,6 @@
                 </h3>
             </div>
         </div>
-        <section>
-            <div class="imgPrincipal">
-                <div class="img-container">
-                    <img src="" alt="">
-                </div>
-
-            </div>
-        </section>
-
         <section class="seccion1">
 
             <div class="tarjeta1">
@@ -150,38 +142,39 @@
                         <div class="img-container">
                             <img class="imgCentral" src="img/chanelFM/imgPrincipal.jpg" alt="">
                         </div>
-
                     </div>
                 </div>
-                <div>
-                    <div class="tarjeta-detalle">
+                <div class="tarjetas-chanel">
+                    <div class="tarjeta-detalle2">
                         <div class="tarjeta-img-chanelFM">
                             <a href="">
                                 <img class="imagen" src="img/chanelFM/chanceF.jpg" alt="">
                             </a>
                         </div><br><br>
-                        <div class="detalle-descripcion">
-                            <div class="marca-descripcion">
-                                <h5> Chanel</h5>
+                        <div class="descripciones">
+                            <div class="detalle-descripcion">
+                                <div class="marca-descripcion">
+                                    <h5> Chanel</h5>
+                                </div>
+                                <div class="detalle-producto">
+                                    <h6> Chance</h6>
+                                </div>
+                            </div><br><br>
+                            <div class="precios">
+                                <p>$33.900</p>
                             </div>
-                            <div class="detalle-producto">
-                                <h6> Chance</h6>
+                            <div class="opciones">
+                                <form action="/registro" method="post">
+                                    <select>
+                                        <option> 100ml</option>
+                                        <option>70ml</option>
+                                        <option>50ml</option>
+                                    </select>
+                                </form>
                             </div>
-                        </div><br><br>
-                        <div class="precios">
-                            <p>$33.900</p>
-                        </div>
-                        <div class="opciones">
-                            <form action="/registro" method="post">
-                                <select>
-                                    <option> 100ml</option>
-                                    <option>70ml</option>
-                                    <option>50ml</option>
-                                </select>
-                            </form>
-                        </div>
-                        <div class="detalle">
-                            <button class="detail">Detalles</button>
+                            <div class="detalle">
+                                <button class="detail">Detalles</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -239,13 +232,15 @@
                                                     </select>
                                                 </form>
                                             </div>
-                                            <div class="detalle2">
-                                                <button class="detail1">
-                                                    Detalles
-                                                </button>
+                                            <div class="contain-detalle2">
+                                                <div class="detalle2">
+                                                    <button class="detail1">
+                                                        Detalles
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="tarjeta-CaroH">
+                                        <div class="tarjeta-CaroH2">
                                             <div class="img-contain">
                                                 <img class="perfume-zapato"
                                                     src="img/Marca-CarolinaH/perfume-zapato1.jpg" alt="">
@@ -269,8 +264,12 @@
                                                     </select>
                                                 </form>
                                             </div>
-                                            <div class="detalle2">
-                                                <button class="detail1">Detalles</button>
+                                            <div class="contain-detalle2">
+                                                <div class="detalle2">
+                                                    <button class="detail1">
+                                                        Detalles
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -302,11 +301,15 @@
                                                     </select>
                                                 </form>
                                             </div>
-                                            <div class="detalle2">
-                                                <button class="detail1">Detalles</button>
+                                            <div class="contain-detalle2">
+                                                <div class="detalle2">
+                                                    <button class="detail1">
+                                                        Detalles
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="tarjeta-CaroH">
+                                        <div class="tarjeta-CaroH2">
                                             <div class="img-contain">
                                                 <img class="perfume-zapato"
                                                     src="img/Marca-CarolinaH/perfume-zapato3.jpg" alt="">
@@ -330,8 +333,12 @@
                                                     </select>
                                                 </form>
                                             </div>
-                                            <div class="detalle2">
-                                                <button class="detail1">Detalles</button>
+                                            <div class="contain-detalle2">
+                                                <div class="detalle2">
+                                                    <button class="detail1">
+                                                        Detalles
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -344,10 +351,10 @@
                                                     src="img/Marca-CarolinaH/perfume-zapato4.jpg" alt="">
                                             </div>
                                             <div>
-                                                <h5>Carolina Herrera</h5>
-                                            </div>
-                                            <div>
+                                                <div>
+                                                      <h5>Carolina Herrera</h5>
                                                 <h6> Good Girl SuperStar EDP</h6>
+                                                </div>
                                             </div>
                                             <div class="precios-caro">
                                                 <p class="p1">$28.150</p>
@@ -362,12 +369,16 @@
                                                     </select>
                                                 </form>
                                             </div>
-                                            <div class="detalle2">
-                                                <button class="detail1">Detalles</button>
+                                            <div class="contain-detalle2">
+                                                <div class="detalle2">
+                                                    <button class="detail1">
+                                                       <p>Detalles</p>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
 
-                                        <div class="tarjeta-CaroH">
+                                        <div class="tarjeta-CaroH2">
                                             <div class="img-contain">
                                                 <img class="perfume-zapato"
                                                     src="img/Marca-CarolinaH/perfume-zapato5.jpg" alt="">
@@ -391,8 +402,12 @@
                                                     </select>
                                                 </form>
                                             </div>
-                                            <div class="detalle2">
-                                                <button class="detail1">Detalles</button>
+                                            <div class="contain-detalle2">
+                                                <div class="detalle2">
+                                                    <button class="detail1">
+                                                        Detalles
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -413,20 +428,67 @@
                 </div>
             </div>
         </section>
-        <ul>
+        <ul class="none">
             <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
                 data-bs-placement="top" data-bs-content="Top popover">
                 Popover on top
+<<<<<<< HEAD
               </button>
+=======
+            </button>
+            <li><a href="/sign-in">Sign In</a></li>
+            <li><a href="/log-in">Log In</a></li>
+>>>>>>> cf7d7d264ea5073b88e73c01ea4839e1892e56d9
             <li><a href="/carrito">carrito</a></li>
         </ul>
     </main>
     <footer>
 
+<<<<<<< HEAD
+=======
+
+
+
+        <div class="re-dirigir">
+            <ul type="none">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+>>>>>>> cf7d7d264ea5073b88e73c01ea4839e1892e56d9
         <div class="newsletter">
             <input type="email" placeholder="Ingresa tu Email">
             <button>Suscribite</button>
         </div>
+        <section>
+            <div class="container-footer">
+                <div class="redes-sociales">
+                    <h3>REDES SOCIALES</h3>
+                    <ul type="none">
+                        <li><a href="perfumall@gmail.com">Mail</a></li>
+                        <li><a href="@PerfuMall">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="Terminos">
+                    <h3>TÉRMINOS Y CONDICIONES</h3>
+                    <label>Términos y condiciones</label><br>
+                    <label>Suscripciones</label><br>
+                    <label>Entrega de productos</label><br>
+                </div>
+                <div class="contactanos">
+                    <h3>CONTÁCTANOS</h3>
+                    <p class="contactar">
+                        (451) 11 3158-4629 <br>
+                        54 9 11 7596-3614<br>
+                        Lunes a Viernes de 9 am a 9 pm <br>
+                        Sabados y Domingos de 10 am a 8 </p>
+                </div>
+            </div>
+        </section>
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
