@@ -122,3 +122,31 @@ main {
     border-top: 1px solid #666;
     padding-left: 15px;  
 }
+
+@media only screen and (min-width:0px) and (max-width:360px){
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+    }
+
+    img {
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width:361px) and (max-width:768px){
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 500px;
+    }
+
+    img {
+        width: 300px;
+    }
+}
