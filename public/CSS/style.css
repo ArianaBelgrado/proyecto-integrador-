@@ -476,88 +476,8 @@ footer {
     }
 }
 
-<<<<<<< HEAD
-.container-central{
-    width: 100%;
-    display:flex;
-    order: -2;
-    padding:0;
-   
-}
-.imgCentral{
-    width: 80%;
-    padding: 0;
-}
-.tarjeta-detalle{
-    width: 70%;
-    position: relative;
-    left: 60px;
-    
-   
-    
-    
-}
-.tarjeta-detalle2{
-    width: 70%;
-    position: relative;
-    left: 60px;
-    
-   
-    
-    
-}
-.imgPrincipal{
-    width: 100%;
-  
-
-}
-
-.main{
-    display:flex;
-    flex-direction: column;
-}
-.seccion1{
-    display: flex;
-    flex-direction: column;
-
-}
-.seccion2{
-    display: flex;
-    flex-direction: column;
-}
-.tarjetas2{
-    display: flex;
-    flex-direction: column;
-}
-.CaroHerrera{
-    display: flex;
-    flex-direction: column;
-}
-.img-container2{
-    position: relative;
-    left: 20px;
-}
-.imgPrincipal2{
-    width: 90%;
-}
-.carrousel{
-    width: 100%;
-}
-.carrousel-productos{
-    width: 100%;
-}
-.detalle{
-    width: 100%;
-
-}
-
-}
-@media only screen and (max-width: 674px) and (min-width: 375px) {
-    *{
-=======
 @media only screen and (max-width: 674px) and (min-width: 374px) {
     * {
->>>>>>> daa8b6e41412b164d186eda215b4b568348f680d
         box-sizing: border-box;
     }
 
