@@ -11,6 +11,10 @@ app.listen(process.env.PORT || 3000, function () {
     console.log("Servidor corriendo");
 })
 
+app.use("/", home.routes);
+
+app.set("view engine", "ejs");
+
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, '/views/home.html'))
 })
